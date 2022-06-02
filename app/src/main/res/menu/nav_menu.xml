@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/tb1"
+    android:title="XY plot"
+    android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/tb2"
+        android:title="Pie Chart"
+        android:icon="@drawable/ic_baseline_dashboard_24"/>
+    <item
+        android:id="@+id/tb3"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_group_24"/>
+</menu>

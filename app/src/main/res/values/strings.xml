@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InternshipAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab2">TAB 2</string>
+    <string name="tab1">TAB 1</string>
+    <string-array name="months">
+        <item>"January"</item>
+        <item>"February"</item>
+        <item>"March"</item>
+        <item>"April"</item>
+        <item>"May"</item>
+        <item>"June"</item>
+        <item>"July"</item>
+        <item>"August"</item>
+        <item>"September"</item>
+        <item>"October"</item>
+        <item>"November"</item>
+        <item>"December"</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

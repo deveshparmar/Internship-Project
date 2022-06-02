@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/cl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".Activities.RegisterActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/login_hero"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/login" />
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_hero"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"
+            android:text="Register"
+            android:textColor="@color/primary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:id="@+id/name_signup"
+            android:textColorHint="@color/primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:hintTextColor="@color/primary"
+            app:startIconTint="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            android:layout_marginTop="40dp"
+            android:hint="Name"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
+            android:layout_below="@id/tv_register">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:id="@+id/email_signup"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/primary"
+            android:layout_height="wrap_content"
+            app:hintTextColor="@color/primary"
+            app:startIconDrawable="@drawable/ic_baseline_alternate_email_24"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="20dp"
+            app:startIconTint="@color/primary"
+            android:layout_marginEnd="20dp"
+            app:boxStrokeColor="@color/primary"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
+            android:layout_below="@id/name_signup"
+            android:hint="Email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorEnabled="true"
+            android:id="@+id/password_signup"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/ic_baseline_password_24"
+            app:endIconMode="password_toggle"
+            app:startIconTint="@color/primary"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:boxStrokeColor="@color/primary"
+            app:hintTextColor="@color/primary"
+            app:boxStrokeErrorColor="@android:color/holo_red_dark"
+            android:layout_below="@id/email_signup"
+            app:endIconTint="@color/primary"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:textColor="@color/primary"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/signup_bttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_signup"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:contentDescription="fab"
+            android:elevation="10dp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            app:backgroundTint="@color/primary"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/goto_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signup_bttn"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Already have an Account? Login"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textSize="18sp" />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/pb_signup"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            style="@style/SpinKitView.ThreeBounce"
+            app:SpinKit_Color="@color/primary"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

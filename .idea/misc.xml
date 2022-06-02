@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/drawable/bg_splash.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/drawable/gradient_splash.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/drawable/nav_ripple.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/drawable/nav_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/activity_home.xml" value="0.23125" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/activity_register.xml" value="0.20444444444444446" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/activity_reset_password.xml" value="0.2" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/fragment_tab1.xml" value="0.2" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/fragment_tab2.xml" value="0.2" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/fragment_tab3.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/spiner_layout.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/layout/spinner_item.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/InternshipAssignment/app/src/main/res/menu/nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
